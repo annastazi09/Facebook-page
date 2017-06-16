@@ -1,0 +1,262 @@
+﻿body {
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-y: scroll;
+    font-size: 12px;
+    color: #1d2129;
+    direction: ltr;
+    line-height: 1.34;
+    display: block;
+    background-color:rgb(250,250,252);
+}
+
+#header {
+    background-color:rgb(65,94,155);
+    min-width:980px;
+    height:82px;
+    padding-top:13px;
+    border-bottom:1px solid rgb(19,55,131);
+}
+
+#header img {
+    width:219px;
+    height:52px;
+    position:relative;
+    left:170px;
+    top:10px;
+}
+
+#autorization {
+    float:right;
+    margin-right:210px;
+  
+}
+
+#email, #password{
+    position:relative;
+    bottom:50px;
+    display:inline-block;
+}
+
+#password {
+    margin-left:50px;
+}
+
+
+#email input,#password input  {
+    border: 1px solid rgb(19,55,131);
+    height:20px;
+    margin-top:5px;
+}
+
+#autorization label {
+    font-family: Helvetica, Arial, sans-serif;
+    color:white;
+    font-size:12px;
+    height:20px;
+
+}
+
+
+#sbmt {
+    outline:none;
+    background-color: rgb(69,97,157);
+    color: white;
+    margin-left: 40px;
+    font-weight: bold;
+    padding: 0px 10px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 1px;
+    height: 22px !important;
+}
+
+#sbmt:hover {
+    background-color:#365899;
+}
+
+#note {
+    position:absolute;
+    top:52px;
+}
+
+#note a {
+    text-decoration:none;
+    color:white;
+    font-size: 12px;
+    opacity:0.5;
+    margin-top:5px;
+}
+
+#note a:hover {
+    text-decoration:underline;
+}
+#leftside {
+    float:left;
+    width:55%;
+} 
+
+#rightside {
+    float:left;
+    width:40%;
+} 
+
+#text {
+    font-family:inherit;
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    width: 450px;
+    word-spacing: -1px;
+    margin-left:185px;
+    margin-top: 20px;
+}
+
+#image {
+    margin-left:185px;
+}
+
+#regist-text {
+    color: #333;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: inherit;
+}
+
+.registr-free-text {
+    font-family: inherit;
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.input-form {
+    font-size: 18px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    border: 1px solid #bdc7d8;
+    /*background-color: transparent;*/
+}
+
+#name-form, #surname-form {
+    width: 172px;
+}
+
+#surname-form {
+    margin-left:8px;
+}
+
+#email-form, #pass-form {
+    width: 377px;
+    margin-top:12px;
+}
+
+#form {
+    margin-top:15px;
+}
+
+#form form div {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+}
+
+#select-container {
+  font-size:0;
+  display:inline;
+}
+
+#birth-link {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    max-width: 150px;
+    margin-left: 10px;
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#birth-link:hover {
+    text-decoration:underline;
+}
+
+.gen label {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+#add-info {
+    margin: 1em 0;
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+
+#add-info a {
+    color: #365899;
+    text-decoration: none;
+}
+
+#add-info a:hover {
+    text-decoration:underline;
+} 
+
+#websubmit {
+    letter-spacing: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 126%;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    color: #fff;
+    border-radius:5px;
+    outline:none;
+    cursor:pointer;
+}
+
+#websubmit:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+#f-famous {
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+
+#f-famous a {
+    color: #365899;
+    text-decoration: none;
+}
+
+#f-famous a:hover {
+    text-decoration:underline;
+} 

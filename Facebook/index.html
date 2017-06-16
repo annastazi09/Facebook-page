@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="images/facebook-icon.png" />
+        </div>
+        <form action="https://www.facebook.com/" method="post" name="autorization">
+        <div id="autorization">
+            <div id="email">
+                <label>Електронна пошта чи номер телефону</label><br />
+                <input type="text" name="login"/>
+            </div>
+             <div id="password">
+                <label>Пароль</label><br />
+                <input type="password" name="password"/>
+                 <div id="note">	
+                    <a href="#">Забули назву облікового запису?</a>
+                 </div>
+                <input id="sbmt" type="submit" name="submit" value="Увiйти"/>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div id="content">
+        <div id="leftside">
+            <div id="text">
+                Facebook допомагає тримати зв'язок з рідними та близькими.
+            </div>
+            <div id="image">
+                <img src="images/facebook.png" />
+            </div>
+        </div>
+        <div id="rightside">
+            <div id="regist-text">
+                Зареєструватися
+            </div>
+            <div class="registr-free-text">
+                Це безкоштовно і так буде завжди.
+            </div>
+            <div id="form">
+                <form action="https://www.facebook.com/" method="post" name="registration">
+                    <input class="input-form" id="name-form"type="text" name="firstname" placeholder="Ім'я"/>
+                    <input class="input-form" id="surname-form" type="text" name="lastnamename" placeholder="Прізвище"/> <br />
+                    <input class="input-form" id="email-form" type="text" name="email" placeholder="Номер мобільного телефону або ел.пошта"/> <br />
+                    <input class="input-form" id="pass-form" type="password" name="password" placeholder="Новий пароль"/> <br />
+                     <div class="registr-free-text">
+                      День народження
+                     </div>
+                     <div id="select-container">
+                     <select class="date" name="select">
+                        <option value="0" selected="selected" >День</option>
+			            <option value="1">1</option>
+			            <option value="2">2</option>
+			            <option value="3">3</option>
+			            <option value="4">4</option>
+			            <option value="5">5</option>
+			            <option value="6">6</option>
+			            <option value="7">7</option>
+			            <option value="8">8</option>
+			            <option value="9">9</option>
+			            <option value="10">10</option>
+			            <option value="11">11</option>
+			            <option value="12">12</option>
+			            <option value="13">13</option>
+			            <option value="14">14</option>
+			            <option value="15">15</option>
+			            <option value="16">16</option>
+			            <option value="17">17</option>
+			            <option value="18">18</option>
+			            <option value="19">19</option>
+			            <option value="20">20</option>
+			            <option value="21">21</option>
+			            <option value="22">22</option>
+			            <option value="23">23</option>
+			            <option value="24">24</option>
+			            <option value="25">25</option>
+			            <option value="26">26</option>
+			            <option value="27">27</option>
+			            <option value="28">28</option>
+			            <option value="29">29</option>
+			            <option value="30">30</option>
+			            <option value="31">31</option>
+		            </select>	
+		            <select class="date" name="select">
+                        <option value="0">Місяць</option>
+			            <option value="1">січ</option>
+			            <option value="2">лют</option>
+			            <option value="3">бер</option>
+			            <option value="4">кві</option>
+			            <option value="5">трав</option>
+			            <option value="6">чер</option>
+			            <option value="7">лип</option>
+			            <option value="8">сер</option>
+			            <option value="9">вер</option>
+			            <option value="10">жов</option>
+			            <option value="11">лис</option>
+			            <option value="12">груд</option>
+		            </select>
+                    <select class="date" name="select">
+                        <option value="0">Рік</option>
+			            <option value="1">2006</option>
+			            <option value="2">2007</option>
+			            <option value="3">2008</option>
+			            <option value="4">2009</option>
+			            <option value="5">2010</option>
+			            <option value="6">2011</option>
+			            <option value="7">2012</option>
+			            <option value="8">2013</option>
+			            <option value="9">2014</option>
+			            <option value="10">2015</option>
+			            <option value="11">2016</option>
+			            <option value="12">2017</option>
+		            </select>
+                         <a href="#" id="birth-link">Чому я маю вказувати свій день народження?</a>
+                    </div>
+                    <div class="gen">
+                        <label>
+                        <input type="radio" name="gen" /> жінка
+                        </label>
+                         <label>
+                            <input type="radio" name="gen" /> чоловік
+                        </label>
+                     </div>
+                     <p id="add-info">
+                       By clicking Створити обліковий запис, you agree to our <a href="#">Terms</a> and
+                       that you have read our <a href="#">Політикою використання даних</a>, including our
+                       <a href="#">Використання Cookie.</a> You may receive SMS Notifications from Facebook
+                       and can opt out at any time.
+                     </p>
+                    <input type="submit" name="websubmit" id="websubmit" value="Створити обліковий запис"/>
+                </form>
+                 <div id="f-famous"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Створити сторінку</a> для знаменитості, гурту або бізнесу.</div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
