@@ -13,7 +13,7 @@
 
 #header {
     background-color:rgb(65,94,155);
-    min-width:980px;
+    min-width:1200px;
     height:82px;
     padding-top:13px;
     border-bottom:1px solid rgb(19,55,131);
@@ -98,6 +98,10 @@
     float:left;
     width:55%;
 } 
+
+#content {
+    min-width:1200px;
+}
 
 #rightside {
     float:left;
